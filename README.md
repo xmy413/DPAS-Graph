@@ -53,7 +53,7 @@ Before training, make sure the paired spatial multi-omics datasets have been pre
 Model training is primarily carried out and implemented via `scripts/train/run_lodo.py`.
 
 ```bash
-python scripts/train/run_lodo.py --specs_json /your root/pairs_preprocessed_v3.json --names "Breast_cancer,Tonsil_cancer,Tonsil_cancer_Add,A1_LN,A1_TNSL,D1_LN,D1_TNSL" --out_root /your root --epochs ** --lr_scale ** --log_mode compact --seed **
+python scripts/train/run_lodo.py --specs_json /**Your Root**/pairs_preprocessed_v3.json --names "Breast_cancer,Tonsil_cancer,Tonsil_cancer_Add,A1_LN,A1_TNSL,D1_LN,D1_TNSL" --out_root /**Your Root** --epochs ** --lr_scale ** --log_mode compact --seed **
 ```
 ## Notes
 

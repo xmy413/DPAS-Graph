@@ -13,7 +13,7 @@ Create the conda environment with:
 ```bash
 conda create -n DPAS python=3.9 -y
 conda activate DPAS
-pip install -r requirements.txt
+conda env create -f environment.yml
 ```
 
 ## Data
